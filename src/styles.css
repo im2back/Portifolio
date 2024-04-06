@@ -1,1 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+ body {
+  margin: 0;
+  padding: 5px;
+  background-image: linear-gradient(to bottom right, #000000, #04026B, #4B4A7D);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+
+@media (min-width :1400px) {
+  .container{
+    width: 1440px;
+    height: 814px;
+    margin: 0 auto;
+
+  }
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  text-align: center;
+  color: aliceblue;
+  text-indent: 20px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 7px solid #000; /* Ajuste a espessura da borda e a cor conforme necessário */
+
+
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 5px;
+}
