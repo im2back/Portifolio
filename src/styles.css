@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-
  body {
   margin: 0;
   padding: 5px;
@@ -8,34 +7,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   background-attachment: fixed;
+
 }
 
 
-@media (min-width :1400px) {
+@media (min-width :1920px) {
   .container{
-    width: 1440px;
-    height: 814px;
+    width: 1902px;
     margin: 0 auto;
-
   }
-}
-
-h1{
-  color: aliceblue;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p{
-  text-align: center;
-  color: aliceblue;
-  text-indent: 20px;
-  font-size: 18px;
-  overflow-wrap: break-word;
-  line-height: 25px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -49,9 +30,4 @@ p{
 
 }
 
-a{
-  color: aliceblue;
-  text-decoration: none;
-  margin-right: 10px;
-  margin-left: 5px;
-}
+

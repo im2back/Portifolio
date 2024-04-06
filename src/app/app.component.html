@@ -1,41 +1,25 @@
 
-<div class="container" >
+<div class="container">
   <div class="grid" style="padding: 10px;">
 
     <div class="col-12" >
-      <header>
-       <h1 > <strong style="color: rgba(169, 58, 58, 0.752);" >Dev Java Full Stack </strong> - Jefferson Richards Sena de Souza</h1>
-      </header>
-     </div>
+      <app-cabecalho></app-cabecalho>
+    </div>
 
-     <div class="col-12"  style=" border-bottom: 1px solid white; "></div>
+    <div class=" col-12 containerMenu">
+      <app-menu></app-menu>
+    </div>
 
+    <div class="col-12 xl:col-3" style="text-align: center; justify-content: center;"  >
+      <img src="../assets/Foto.png" width="333px" height="333px" class="circle" >
+    </div>
 
-
-     <div class=" col-12" style="margin-bottom: 100px; margin-top: 10px;" >
-      <a>Projetos</a>
-      <a href="">Certificados</a>
-     </div>
-
-   <div class="col-12 xl:col-3" style="text-align: center; justify-content: center;"  >
-    <img src="../assets/Foto.png" width="333px" height="333px" class="circle" >
-   </div>
-
-
-    <div class="col-12 xl:col-9" style=" padding-top: 90px;" >
-      <p>Curso de Análise e Desenvolvimento de Sistemas, com enfoque em Java e Spring Boot. Além do curso superior,
-        estou em constante aprimoramento das minhas habilidades através de cursos extracurriculares em plataformas digitais e projetos que
-         complementam minha formação acadêmica. Meu portfólio conta com um projeto autoral disponível em meu repositório no GitHub, bem como
-          diversos outros projetos elaborados ao longo de minha jornada educacional. Especializei-me em desenvolvimento back-end, utilizando
-          principalmente Spring Boot e Java. Ademais, possuo conhecimentos em Docker e tenho familiaridade com ferramentas de automação de
-           integração e entrega contínua (CI/CD), como Jenkins. Utilizo também o SonarQube para a verificação da qualidade do código. Contudo,
-            também detenho conhecimentos de front-end, incluindo HTML, CSS e JavaScript e Angular.</p>
+    <div class="col-12 xl:col-9 containerTexto" >
+      <app-descricao></app-descricao>
     </div>
 
     <app-footer></app-footer>
 
-
-
   </div>
-
+</div>
 

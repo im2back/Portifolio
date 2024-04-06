@@ -1,0 +1,27 @@
+
+p{
+  text-align: center;
+  color: aliceblue;
+  text-indent: 20px;
+  font-size: 18px;
+  overflow-wrap: break-word;
+  line-height: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width :1199px) {
+
+  p{
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1348px) {
+  p{
+    font-size: 14px;
+  }
+}
+
+
