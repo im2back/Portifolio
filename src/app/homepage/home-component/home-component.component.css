@@ -1,0 +1,48 @@
+.containerMenu{
+  margin-bottom: 100px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+.containerTexto{
+  padding-top: 50px;
+}
+
+
+@media (max-width :1199px) {
+
+  .containerTexto{
+    padding-top: 0px;
+  }
+
+  .containerMenu{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+  }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1348px) {
+
+  .containerMenu{
+    margin-bottom: 100px;
+    margin-top: 10px;
+  }
+
+  img{
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+
