@@ -36,3 +36,11 @@ p{
     line-height: 1px;
   }
 }
+
+@media(min-width: 286px) and (max-width:429px ){
+
+p{
+  font-size: 5px;
+}
+
+}

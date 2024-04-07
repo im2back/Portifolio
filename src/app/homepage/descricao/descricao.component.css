@@ -26,3 +26,18 @@ p{
 }
 
 
+@media(min-width: 286px) and (max-width:429px){
+  p{
+
+    margin: 0px;
+    text-align: center;
+    color: aliceblue;
+    text-indent: 20px;
+    font-size: 10px;
+    overflow-wrap: break-word;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
+}
