@@ -50,8 +50,21 @@
     width: 150px;
     height: 150px;
   }
-
-
 }
+
+@media (max-height: 732px) {
+  img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-height: 650px) {
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 
 

@@ -1,0 +1,24 @@
+a {
+  text-decoration: none;
+  color: rgb(53, 197, 31); /* Cor padrão do link */
+  border-color: aliceblue;
+  padding: 13px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+a:hover {
+  background-color: rgb(20, 11, 116);
+  padding: 20px;
+}
+
+a::after {
+  content: "";
+  color: rgb(53, 197, 31);
+}
+
+a::before {
+  content: "";
+  color: rgb(252, 247, 242);
+}

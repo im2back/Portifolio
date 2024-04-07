@@ -8,6 +8,8 @@ p{
   overflow-wrap: break-word;
   line-height: 25px;
   font-family: 'Open Sans', sans-serif;
+
+
 }
 
 @media (max-width :1199px) {
@@ -26,7 +28,7 @@ p{
 }
 
 
-@media(min-width: 286px) and (max-width:429px){
+@media(min-width: 286px) and (max-width: 429px)   {
   p{
 
     margin: 0px;
@@ -37,7 +39,14 @@ p{
     overflow-wrap: break-word;
     line-height: 25px;
     font-family: 'Open Sans', sans-serif;
-  }
 
+  }
+}
+
+@media (max-height: 760px) {
+
+  p{
+    font-size: 10px;
+}
 
 }

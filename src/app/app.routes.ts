@@ -11,6 +11,10 @@ export const routes: Routes = [
  {
   path: 'certificados',
   component: FotosComponent
- }
+ },
+ {
+  path: '**',
+  component: HomeComponentComponent
+ },
 
 ];
