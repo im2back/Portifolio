@@ -8,7 +8,18 @@ p{
   overflow-wrap: break-word;
   line-height: 25px;
   font-family: 'Open Sans', sans-serif;
+}
 
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.curriculoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -28,7 +39,7 @@ p{
 }
 
 
-@media(min-width: 286px) and (max-width: 429px)   {
+@media(min-width: 286px) and (max-width: 516px)   {
   p{
 
     margin: 0px;
@@ -37,9 +48,8 @@ p{
     text-indent: 20px;
     font-size: 10px;
     overflow-wrap: break-word;
-    line-height: 25px;
+    line-height: 20px;
     font-family: 'Open Sans', sans-serif;
-
   }
 }
 
@@ -47,6 +57,30 @@ p{
 
   p{
     font-size: 10px;
+    line-height: 20px;
+  }
+
 }
+
+@media (max-width: 349px) {
+
+  p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+}
+
+
+@media (max-width: 270px) {
+
+  p{
+    text-align: center;
+    color: aliceblue;
+    text-indent: 20px;
+    overflow-wrap: break-word;
+    line-height: 15px;
+    font-size: 9px;
+  }
 
 }

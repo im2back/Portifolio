@@ -1,28 +1,58 @@
+.menu{
+  display: flex;
+  flex-direction:row ;
+}
+
 a{
-  color: aliceblue;
   text-decoration: none;
-  margin-right: 10px;
-  margin-left: 5px;
+  color: aliceblue;
+
   cursor: pointer;
   font-size: 18px;
-
+  font-weight: lighter;
+  padding: 20px;
+  margin: 20px;
 }
 
 a::before {
-  content: ""; /* Propriedade obrigatória para ::before, pode ser vazia ou qualquer string */
-  color: black; /* Definiria a cor do texto ou símbolo especificado em content */
+  content: "";
+  color: black;
 }
 
 a:hover {
-  color: rgb(190, 243, 0); /* Altera a cor do link ao passar o mouse */
+  transition: 1s;
+  color: rgb(190, 243, 0);
   border-color: yellowgreen;
   font-size: 20px;
-
+  font-weight: bold;
 
 }
 
-@media(min-width: 286px) and (max-width:429px){
+@media(min-width: 100px) and (max-width:709px){
 a{
-  font-size: 12px;
+  font-size: 9px;
+  padding: 2px;
+  margin: 5px;
 }
 }
+@media(min-width: 710px) and (max-width:999px){
+
+  a{
+    font-size: 15px;
+    padding: 2px;
+    margin: 5px;
+  }
+
+
+}
+
+@media(max-width:410px){
+  .menu{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+  }
+  }
+
+
+

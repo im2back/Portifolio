@@ -66,5 +66,12 @@
   }
 }
 
+@media (max-width: 290px) {
+  img{
+    width: 90px;
+    height: 90px;
+  }
+}
+
 
 

@@ -31,3 +31,21 @@ h1{
 }
 
 }
+
+@media (max-width: 350px) {
+
+  h1{
+    font-size: 10px;
+    margin: 0px;
+}
+
+}
+
+@media (max-width: 297px) {
+
+  h1{
+    font-size: 8px;
+    margin: 0px;
+}
+
+}

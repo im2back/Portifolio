@@ -20,7 +20,7 @@ p{
   text-align: center;
   color: aliceblue;
   text-indent: 20px;
-  font-size: 18px;
+  font-size: 12px;
   overflow-wrap: break-word;
   line-height: 15px;
   font-family: 'Open Sans', sans-serif;
@@ -37,11 +37,31 @@ p{
   }
 }
 
-@media(min-width: 286px) and (max-width:429px ){
+@media(min-width: 100px) and (max-width:429px ){
 
 p{
-  font-size: 5px;
+  font-size: 10px;
+}
+
+a{
+  margin: 0px;
+}
+
+footer{
+  height: 80px;
+  line-height: 1px;
 }
 
 }
+
+@media (min-width :1200px) and (max-width: 1284px) {
+  footer{
+    position: fixed;
+    height: 100px;
+    background-color: #060419fa;
+    text-align: center;
+    line-height: 1px;
+  }
+}
+
 

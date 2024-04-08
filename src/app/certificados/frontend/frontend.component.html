@@ -1,14 +1,14 @@
 <div class="container" >
   <div class="grid" >
     <div class="col-12" >
-      <h1>Certificados</h1>
+      <h1>Certificados Front-end</h1>
     </div>
 
     <div class="col-12 navbar " style="text-align: center; margin-bottom: 50px;">
         <app-navbar></app-navbar>
     </div>
 
-    <div class="col-12 xl:col-3 md:col-6 card " *ngFor="let item of lista">
+    <div class="col-12 xl:col-4 md:col-6 card " *ngFor="let item of lista">
       <p-card [header]="item.header" [subheader]="item.subheader" [style]="{ width: '300px', height: '350px' }">
         <ng-template pTemplate="header">
             <img alt="Card"  [src]="item.urlDaimagem" />
