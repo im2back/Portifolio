@@ -3,7 +3,7 @@ import { HomeComponentComponent } from './homepage/home-component/home-component
 import { FrontendComponent } from './certificados/frontend/frontend.component';
 import { BackendComponent } from './certificados/backend/backend.component';
 import { FerramentasComponent } from './certificados/ferramentas/ferramentas.component';
-import { ProjetosComponent } from './projetos/projetos.component';
+import { ProjetosComponent } from './projetos-module/projetos/projetos.component';
 
 
 export const routes: Routes = [

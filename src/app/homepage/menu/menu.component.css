@@ -28,13 +28,14 @@ a:hover {
 
 }
 
-@media(min-width: 100px) and (max-width:709px){
-a{
-  font-size: 9px;
-  padding: 2px;
-  margin: 5px;
-}
-}
+@media(min-width: 411px) and (max-width: 709px){
+  a{
+    font-size: 8px;
+    padding: 2px;
+    margin: 5px;
+  }
+  }
+
 @media(min-width: 710px) and (max-width:999px){
 
   a{
@@ -42,7 +43,6 @@ a{
     padding: 2px;
     margin: 5px;
   }
-
 
 }
 
@@ -52,7 +52,21 @@ a{
     flex-direction:column ;
     align-items: center;
   }
+
+  .linksMenu{
+    margin-bottom: 4px;
   }
+
+  a{
+    font-size: 8px;
+  }
+
+
+  }
+
+
+
+
 
 
 

@@ -1,16 +1,23 @@
 a {
   text-decoration: none;
-  color: rgb(53, 197, 31); /* Cor padrão do link */
+  color: rgb(255, 255, 255); /* Cor padrão do link */
   border-color: aliceblue;
-  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-width: 1px;
   border-style: solid;
+  letter-spacing: 5px;
+  font-size: 20px;
 }
 
 
 a:hover {
-  background-color: rgb(20, 11, 116);
-  padding: 20px;
+  transition: 2s;
+
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 a::after {
@@ -21,4 +28,10 @@ a::after {
 a::before {
   content: "";
   color: rgb(252, 247, 242);
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.415);
+  padding: 20px;
+  border-radius: 10px;
 }

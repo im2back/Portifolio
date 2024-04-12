@@ -1,0 +1,85 @@
+
+
+      <div class="col-12 tituloContainer" >
+        <h1>Técnologias Utilizadas</h1>
+      </div>
+
+      <div class="col-12" >
+
+
+      <a class="grid" >
+        <div class="col-4 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/keycloak-icon.svg">
+        </div>
+        <span class="link-text col-8 ">Segurança <span class="arrow-icon" (click)="toggleTooltip('key')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span> </span>
+        <div class="tooltip" *ngIf="tooltips['key']">
+          Keycloak oferece suporte robusto a microserviços, facilitando a gestão de autorizações em arquiteturas distribuídas. Além disso, permite ampla customização e centralização da segurança, otimizando tanto a autenticação quanto a extensibilidade das aplicações.
+        </div>
+      </a>
+
+      <a class="grid">
+        <div class="col-4 img"  style=" display: flex; justify-content: space-between; ">
+          <img src="https://im2back.github.io/Portifolio/assets/icons/java-icon.svg" >
+          <img src="https://im2back.github.io/Portifolio/assets/icons/spring-icon.svg">
+        </div>
+        <span class="link-text col-8 ">Back-end<span class="arrow-icon" (click)="toggleTooltip('back')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span> </span>
+        <div class="tooltip" *ngIf="tooltips['back']">
+            Back end desenvolvido utilizando Java e Spring Boot é a combinação perfeita pois oferece robustez, escalabilidade e eficiência, facilitando a criação de aplicações seguras e de alto desempenho com menor esforço de configuração e uma vasta comunidade de suporte
+        </div>
+      </a>
+
+      <a class="grid" >
+        <div class="col-4 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/arquiterura-icon.svg">
+        </div>
+        <span class="link-text col-8 ">Arquitetura<span class="arrow-icon" (click)="toggleTooltip('arq')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span> </span>
+        <div class="tooltip" *ngIf="tooltips['arq']">
+          Projeto implementado utilizando a arquitetura de microsserviços, porque temos maior facilidade de manutenção, escalabilidade independente de componentes, e agilidade na implementação de novas funcionalidades, além de possibilitar a integração contínua e entrega contínua (CI/CD) de forma mais eficaz.
+        </div>
+      </a>
+
+      <a class="grid" >
+        <div class="col-3 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/mysql-icon.svg">
+        </div>
+        <span class="link-text col-9">Database<span class="arrow-icon" (click)="toggleTooltip('mysql')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span></span>
+        <div class="tooltip" *ngIf="tooltips['mysql']">
+
+MySQL é um banco de dados gratuito e de código aberto, por isso foi escolhido para o projeto, oferecendo uma solução robusta e confiável sem custos adicionais de licenciamento, além de ser amplamente suportado pela comunidade e compatível com diversas plataformas e tecnologias.
+        </div>
+      </a>
+
+      <a class="grid" >
+        <div class="col-4 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/angular-icon.svg">
+        </div>
+        <span class="link-text col-8">Front-end<span class="arrow-icon" (click)="toggleTooltip('angular')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span></span>
+        <div class="tooltip" *ngIf="tooltips['angular']">
+
+Angular é um dos melhores frameworks para se utilizar com Spring Boot por isso foi escolhido e também porque proporciona uma estrutura coesa para desenvolver o frontend enquanto Spring Boot se encarrega do backend, facilitando assim a criação de aplicações completas com uma integração suave e eficiente entre cliente e servidor.
+        </div>
+      </a>
+
+      <a class="grid" >
+        <div class="col-4 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/docker-icon.svg">
+        </div>
+        <span class="link-text col-8 ">Containers <span class="arrow-icon" (click)="toggleTooltip('docker')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span> </span>
+        <div class="tooltip" *ngIf="tooltips['docker']">
+          Docker foi utilizado para orquestrar o deploy local da aplicação em containers, permitindo a criação de ambientes isolados que garantem consistência entre desenvolvimento, teste e produção. Além disso, facilita a geração e gerenciamento de imagens que podem ser facilmente compartilhadas e reutilizadas, otimizando o processo de desenvolvimento e implantação.
+        </div>
+      </a>
+
+      <a class="grid" >
+        <div class="col-4 img">
+          <img  src="https://im2back.github.io/Portifolio/assets/icons/github-icon.svg">
+        </div>
+        <span class="link-text col-8 ">Versionamento <span class="arrow-icon" (click)="toggleTooltip('git')"><img src="https://im2back.github.io/Portifolio/assets/icons/arrow.svg"></span> </span>
+        <div class="tooltip" *ngIf="tooltips['git']">
+          Github foi utilizado como repositório remoto para versionar o código da aplicação.
+        </div>
+      </a>
+    </div>
+
+
+
