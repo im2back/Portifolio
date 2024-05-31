@@ -1,0 +1,9 @@
+{
+  "routes": [
+    "/",
+    "/certificados-back",
+    "/certificados-ferramentas",
+    "/certificados-front",
+    "/projetos"
+  ]
+}
