@@ -1,194 +1,301 @@
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-.container{
-  margin-top: 50px;
-  width: 100%;
-  background-color: #000000;
-  height: 300px;
 
-  box-shadow: 0 -8px 10px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -5px rgba(0, 0, 0, 0.8);
+
+.text1{
+  top: 40px;
+   left: 40px;
+}
+.text2{
+  top: 40px;
+  left: 200px;
+}
+.text3{
+  top: 85px;
+  left: 130px;
+}
+.text4{
+  top: 130px;
+  left: 50px;
 }
 
-.containerLetreiro{
-  width: 100%;
-  background-color: #000000a2;
-  box-shadow: 0 -8px 10px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -5px rgba(0, 0, 0, 0.8);
-  background-image: url("https://im2back.github.io/Portifolio/assets/projetos/programming.gif");
-
-  background-repeat: no-repeat;
-  background-size: 500px;
+.text5{
+  top: 130px;
+  left: 200px;
 }
 
-.textoLetreiroContainer{
-  font-size: 30px;
-  color: rgb(254, 255, 240);
-  font-family: 'Anonymous Pro', monospace;
-  letter-spacing: 4px;
-  padding: 10px;
-  margin: 0px;
-  font-weight: bold;
-  font-style: italic;
+.text6{
+  top: 250px;
+  left: 190px;
 }
 
-.nomeDoProjetoLetreiroContainer{
-  font-size: 30px;
-  color: rgb(254, 255, 240);
-  font-family: 'Anonymous Pro', monospace;
-  letter-spacing: 4px;
-  padding: 10px;
-  margin: 0px;
-  font-weight: bold;
-  text-shadow: 0px 2px 4px rgb(26, 255, 0);
+.text7{
+  top: 200px;
+  left: 50px;
 }
 
-
-.qualificacoesContainer{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  flex-direction: column;
+.text8{
+  top: 300px;
+  left: 50px;
 }
-
-.imageContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.containerItemImagesLinks{
-  background-color: rgba(0, 0, 0, 0.757);
-  border-radius: 10px;
-  box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-  padding: 10px;
-
-}
-
-.navbar{
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.cabecalhoContainer{
-  margin-bottom: 30px;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 25px;
+.text9{
+  top: 300px;
+  left: 150px;
 }
 
 h1{
-  color: aliceblue;
+  color: #2BDEFD;
   text-align: center;
-  letter-spacing: 2px;
-  overflow: hidden;
-  font-weight: normal;
-
+  font-weight: 510;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
-h1:after{
-  content: '';
-   display: inline-block;
-   background-color: white;
-   margin-left: 2px;
-   height: 25px;
-   width: 4px;
-   animation: cursor 0.4s infinite;
+.tituloDaPageContainer h1{
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+
+.tituloProjetoContainer h1{
+  text-align: center;
+  font-size: 50px;
  }
 
- @keyframes cursor {
-  0% { opacity: 1; }
-    49% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 0; }
+.painelContainer{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 50px;
 }
 
+.img-1{
+  width: 161px;
+  height: 33px;
+}
+.img-1 img {
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+  object-fit: contain; /* ou 'cover' para cobrir o contêiner */
+}
 
-h2{
+.img-2 {
+  width: 405px;
+  height: 387px;
+  position: relative; /* Para que os elementos filhos possam ser posicionados absolutamente */
+}
+
+.img-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sobreProjeto{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sobreProjeto h2{
   color: aliceblue;
-  font-family: 'Anonymous Pro', monospace;
+  font-weight: 600;
+  font-size: 35px;
 }
 
-.imgProjeto{
-  width: 520px;
-  height: 590px;
-  border-radius: 4px;
-  box-shadow:
-  -20px 20px 8px rgba(188, 146, 146, 0.5),
-  20px 20px 8px rgba(188, 146, 146, 0.5),
-  0 20px 8px rgba(188, 146, 146, 0.5);
+.sobreProjeto p{
+  font-size: 20px;
+  color: aliceblue;
+  text-align: justify;
+  text-indent: 60px;
+  word-spacing: 1px;
+  hyphens: auto;
+  line-height: 1.5;
+  text-justify: inter-word;
 }
 
-a{
-  text-decoration: none;
-  color: rgb(243, 242, 242);
-  padding-top: 10px ;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
+.tituloTecnologias {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tituloTecnologias h1 {
+font-size: 70px;
+}
+
+
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  border-radius: 13px;
+  padding: .5rem;
+  margin: 0;
   border-style: solid;
-  border-radius: 4px;
-  border-width: 3px;
-  background-color: rgb(0, 0, 0);
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 40px;
-  font-family: 'Open Sans', sans-serif;
+  border-width: 2px;
+  border-color: #2a7ae4;
+  pointer-events: none; /* Para garantir que o texto não interfira com a interação da imagem */
+  font-size: 15px;
 }
-
-a:hover{
-  transition: 1s;
-  border-radius: 30px;
-
-}
-
 
 @media(max-width: 1000px){
-  .imgProjeto{
-    width: 260px;
-    height: 275px;
+
+  .tituloTecnologias h1{
+      font-size: 35px;
   }
 
-  h1 {
-    font-size: 20px;
+
+  .tituloDaPageContainer h1{
+    font-size: 40px;
+    letter-spacing: 4px;
   }
 
-  .cabecalhoContainer{
-    margin-bottom: 0px;
-  }
-
-  .navbar{
+  .tituloProjetoContainer h1{
     text-align: center;
-    margin-bottom: 10px;
+    font-size: 30px;
+   }
+
+  .sobreProjeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+    margin: 0 auto; /* Centraliza o contêiner na tela */
+
+  }
+  .sobreProjeto p{
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .containerTecnologias{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.painelContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 0px;
+}
+
+.img-1{
+  width: 100px;
+  height: 20px;
+  margin-left: -200px;
+}
+
+.img-2 {
+  width: 300px;
+  height: 286px;
+}
+
+.text-overlay {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  border-radius: 13px;
+  padding: .5rem;
+  margin: 0;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2a7ae4;
+  pointer-events: none; /* Para garantir que o texto não interfira com a interação da imagem */
+  font-size: 10px;
+}
+
+.text1{
+  top: 40px;
+   left: 40px;
+}
+.text2{
+  top: 40px;
+  left: 200px;
+}
+.text3{
+  top: 85px;
+  left: 130px;
+}
+.text4{
+  top: 130px;
+  left: 50px;
+}
+
+.text5{
+  top: 130px;
+  left: 180px;
+}
+
+.text6{
+  top: 170px;
+  left: 150px;
+}
+
+.text7{
+  top: 170px;
+  left: 50px;
+}
+
+.text8{
+  top: 220px;
+  left: 50px;
+}
+.text9{
+  top: 220px;
+  left: 150px;
+}
+
+}
+
+
+
+@media (max-width: 599px) {
+  .video-container {
+    width: 300px; /* Ocupa toda a largura disponível */
+    height: 180px; /* Diminui a altura do contêiner */
   }
 
 }
 
-@media(max-width :1000px){
-  .qualificacoesContainer{
-   padding: 20px;
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px; /* Altura ajustável conforme necessário */
+  position: relative;
+  overflow: hidden; /* Esconde qualquer conteúdo que possa transbordar */
+  margin: 0 auto; /* Centraliza o contêiner na página */
+}
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none; /* Remove a borda padrão do iframe */
+}
+
+@media(min-width: 1200px){
+  .containerProjetos{
+    padding: 30px;
   }
 }
 
-@media(max-width :444px){
-
-  .textoLetreiroContainer{
-    font-size: 15px;
-  }
-
-  .nomeDoProjetoLetreiroContainer{
-    font-size: 20px;
-
-  }
-
-  h2{
-    font-size: 20px;
-  }
-
+.navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
-@media(max-width :334px){
-  .nomeDoProjetoLetreiroContainer{
-    font-size: 15px;
-  }
-}
+
 

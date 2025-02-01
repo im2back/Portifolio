@@ -1,0 +1,30 @@
+<div class="container" >
+  <div class="grid" >
+    <div class="col-12" >
+      <h1>Repositórios</h1>
+    </div>
+
+    <div class="col-12" style="margin-top: 40px; margin-bottom: 100px;">
+      <p style="color: rgb(0, 0, 0); font-size: 24px; text-align: center;">Essa sessão é dedica a exibir as principais
+        API'S desenvolvidas durante a minha trilha de estudos como programador.</p>
+    </div>
+
+    <div class="col-12 xl:col-4 md:col-6 card " *ngFor="let item of lista">
+      <p-card [header]="item.header" [subheader]="item.subheader" class="test" [style]="{ width: '300px', height: '350px' }">
+        <ng-template pTemplate="header">
+            <img alt="Card"  [src]="item.urlDaimagem" />
+        </ng-template>
+
+        <a [href]="item.urlDoCertificado" class="pi pi-eye"> Vizualizar</a>
+      </p-card>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+

@@ -5,8 +5,7 @@
 
 a{
   text-decoration: none;
-  color: aliceblue;
-
+  color: white;
   cursor: pointer;
   font-size: 18px;
   font-weight: lighter;
@@ -25,7 +24,6 @@ a:hover {
   border-color: yellowgreen;
   font-size: 20px;
   font-weight: bold;
-
 }
 
 @media(min-width: 411px) and (max-width: 709px){
@@ -49,7 +47,7 @@ a:hover {
 @media(max-width:410px){
   .menu{
     display: flex;
-    flex-direction:column ;
+    flex-direction:row;
     align-items: center;
   }
 
@@ -58,11 +56,16 @@ a:hover {
   }
 
   a{
-    font-size: 8px;
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
   }
 
+}
 
-  }
+
 
 
 

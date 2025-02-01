@@ -1,0 +1,26 @@
+<form *ngIf="isVisible"  (ngSubmit)="sendEmail($event)">
+
+  <div>
+    <label for="from_name">De (Nome):</label>
+    <input type="text" id="from_name" name="from_name" required>
+  </div>
+
+  <div>
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<div class="floating-button-container">
+  <button class="floating-button" (click)="toggleEmailContainer()">
+    ✉️
+  </button>
+  <span class="floating-text">Deixe sua Dica para mim!</span>
+  <div class="thank-you-message" *ngIf="showThankYouMessage">
+    Obrigado! Sua mensagem foi enviada.
+  </div>
+  <audio id="success-sound" src="https://im2back.github.io/Portifolio/assets/sounds/sucess.mp3" ></audio>
+</div>
+

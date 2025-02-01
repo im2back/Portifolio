@@ -1,9 +1,10 @@
+@import 'primeflex/primeflex.css';
 
 
  body {
   margin: 0;
-  padding: 8px;
-  background-image: linear-gradient(to bottom right, #000000, #04026B, #4B4A7D);
+  padding: 2px;
+  background-color: #01080E;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,26 +14,17 @@
 
 @media (min-width :1920px) {
   .container{
-    width: 1902px;
+    width: 1900px;
     margin: 0 auto;
+
   }
 
   .containerProjetos{
-    width: 1600px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
   }
 }
 
-
-.circle {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 7px solid #000; /* Ajuste a espessura da borda e a cor conforme necessário */
-
-
-}
 
 

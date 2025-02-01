@@ -1,11 +1,28 @@
+
+
 .containerMenu{
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-top: 10px;
   align-items: center;
   justify-content: center;
   display: flex;
-
 }
+
+.containerImage{
+  display: none;
+ text-align: center;
+ justify-content: center;
+ margin-top: 15px;
+}
+
+.containerImage2 {
+  display: none;
+  text-align: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+
 
 .containerTexto{
   padding-top: 50px;
@@ -14,6 +31,9 @@
 
 @media (max-width :1199px) {
 
+  .containerImage2 {
+    display: block;
+  }
   .containerTexto{
     padding-top: 0px;
   }
@@ -41,6 +61,7 @@
   img{
     width: 300px;
     height: 300px;
+
   }
 
 }
@@ -50,6 +71,9 @@
     width: 150px;
     height: 150px;
   }
+  .containerImage{
+    margin-top: 15px;
+   }
 }
 
 @media (max-height: 732px) {
@@ -57,6 +81,9 @@
     width: 150px;
     height: 150px;
   }
+  .containerImage{
+    margin-top: 15px;
+   }
 }
 
 @media (max-height: 650px) {
@@ -64,6 +91,9 @@
     width: 100px;
     height: 100px;
   }
+  .containerImage{
+    margin-top: 15px;
+   }
 }
 
 @media (max-width: 290px) {
@@ -71,6 +101,21 @@
     width: 90px;
     height: 90px;
   }
+  .containerImage{
+    margin-top: 15px;
+   }
+}
+
+@media (min-width: 1200px) {
+
+  .container{
+    padding: 10px;
+  }
+
+  .containerImage {
+    display: block;
+  }
+
 }
 
 

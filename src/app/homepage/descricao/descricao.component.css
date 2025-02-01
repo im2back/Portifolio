@@ -1,26 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
 
+
+h1{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+h3{
+ color: rgba(169, 58, 58, 0.75);
+ align-items: center;
+ justify-content: left;
+  display: flex;
+  font-family: 'Lexend Deca', sans-serif;
+}
 
 p{
-  text-align: center;
-  color: aliceblue;
-  text-indent: 20px;
-  font-size: 18px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  text-indent: 60px;
+  font-size: 16px;
   overflow-wrap: break-word;
   line-height: 25px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
+
+.texto {
+  padding-left: 200px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
 
 a{
   text-decoration: none;
-  color: aliceblue;
+  color: white;
   font-size: 20px;
 }
 
 .curriculoContainer{
+  margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  padding-left: 575px;
 }
 
 @media (max-width :1199px) {
@@ -30,43 +57,80 @@ a{
     line-height: 25px;
   }
 
+  .texto {
+    padding-left: 20px;
+  }
+  .curriculoContainer{
+    padding-left: 0px;
+  }
+
+
 }
 
-@media (min-width: 1200px) and (max-width: 1348px) {
+@media (min-width: 1200px) and (max-width: 1620px) {
   p{
     font-size: 14px;
   }
 }
 
 
-@media(min-width: 286px) and (max-width: 516px)   {
+@media(min-width: 286px) and (max-width: 814px)   {
   p{
-
     margin: 0px;
     text-align: center;
-    color: aliceblue;
     text-indent: 20px;
     font-size: 10px;
     overflow-wrap: break-word;
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
   }
+
+  h1{
+    font-size: 15px;
+  }
+
+  .texto {
+    padding-left: 20px;
+  }
+  .curriculoContainer{
+    padding-left: 0px;
+  }
+
 }
 
 @media (max-height: 760px) {
 
   p{
     font-size: 10px;
-    line-height: 20px;
+    line-height: 15px;
   }
 
+  .curriculoContainer{
+    margin-top: 1px;
+    padding-left: 0px;
+  }
 }
 
-@media (max-width: 349px) {
+
+@media (max-height: 792px) {
+
+  .curriculoContainer{
+    margin-top: 0px;
+    padding-left: 0px;
+  }
+}
+
+
+@media (max-width: 391px) {
 
   p{
     font-size: 10px;
     line-height: 15px;
+  }
+
+  .curriculoContainer a{
+    font-size: 12px;
+    padding-left: 0px;
   }
 
 }
@@ -76,11 +140,13 @@ a{
 
   p{
     text-align: center;
-    color: aliceblue;
     text-indent: 20px;
     overflow-wrap: break-word;
     line-height: 15px;
     font-size: 9px;
+  }
+  .curriculoContainer{
+    padding-left: 0px;
   }
 
 }

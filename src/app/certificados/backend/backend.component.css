@@ -1,3 +1,15 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 90px; /* Ajuste conforme a altura da navbar */
+}
+
 img{
   width: 300px;
   height: 200px;
@@ -41,6 +53,17 @@ a{
 
   .container{
     padding: 20px;
+  }
+
+}
+
+@media(max-width: 476px){
+
+
+  h1{
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 20px;
   }
 
 }

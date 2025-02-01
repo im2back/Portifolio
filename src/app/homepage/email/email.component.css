@@ -1,0 +1,128 @@
+/* Container do botão flutuante e texto */
+.floating-button-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 999; /* Garantir que o botão flutuante fique no topo */
+}
+
+/* Botão flutuante */
+.floating-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgb(0, 0, 0), 0px 8px 24px rgb(0, 0, 0); /* Sombra 3D */
+  outline: none;
+  animation: pulse 2s infinite; /* Adiciona a animação */
+}
+
+/* Animação de crescimento e diminuição */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Texto flutuante que aparece sobre o botão */
+.floating-text {
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+
+/* Estilo básico do formulário de e-mail */
+form {
+  position: fixed;
+  bottom: 190px; /* Ajuste essa distância conforme necessário */
+  right: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  z-index: 999; /* Para garantir que o formulário fique sobre outros elementos */
+  width: 300px;
+}
+
+/* Estilos dos campos do formulário */
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="email"],
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Estilo do botão de envio ao passar o mouse */
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width:424px){
+
+  .floating-button-container {
+    position: fixed;
+    bottom: 90px;
+    right: 5px;
+
+  }
+}
+
+@media (max-width:309px){
+
+  .floating-button-container {
+    position: fixed;
+    bottom: 60px;
+    right: -30px;
+
+  }
+}
+
+/* Frase de agradecimento */
+.thank-you-message {
+  margin-top: 10px;
+  color: #007bff;
+  font-size: 14px;
+  text-align: center;
+
+}

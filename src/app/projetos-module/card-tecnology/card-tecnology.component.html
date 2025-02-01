@@ -1,0 +1,81 @@
+
+<div class="tecnologiasAjustador" >
+  <div class="containerTecnologias" >
+      <div class="container" (click)="toggleTab1()">
+        <img [src]="data1.src">
+        <p class="name" [ngStyle]="{ 'color': (data1.color ? 'white' : data1.color2) }" >{{ data1.name }}</p>
+        <div class="tab" [class.open]="isTabOpen1">
+          <p class="description">{{ data1.description }}</p>
+        </div>
+      </div>
+
+      <div class="container" (click)="toggleTab2()" >
+        <img [src]="data2.src">
+        <p class="name" [ngStyle]="{ 'color': (data2.color ? 'white' : data2.color2) }" >{{ data2.name }}</p>
+        <div class="tab" [class.open]="isTabOpen2">
+          <p class="description">{{ data2.description }}</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="containerTecnologias">
+      <div class="container" (click)="toggleTab3()">
+        <img [src]="data3.src">
+        <p class="name" [ngStyle]="{ 'color': (data3.color ? 'white' : data3.color2) }" >{{ data3.name }}</p>
+        <div class="tab" [class.open]="isTabOpen3">
+          <p class="description">{{ data3.description }}</p>
+        </div>
+      </div>
+
+      <div class="container" (click)="toggleTab4()">
+        <img [src]="data4.src">
+        <p class="name" [ngStyle]="{ 'color': (data4.color ? 'white' : data4.color2) }" >{{ data4.name }}</p>
+        <div class="tab" [class.open]="isTabOpen4">
+          <p class="description">{{ data4.description }}</p>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div class="tecnologiasAjustador">
+  <div class="containerTecnologias">
+      <div class="container" (click)="toggleTab5()">
+        <img [src]="data5.src">
+        <p class="name" [ngStyle]="{ 'color': (data5.color ? 'white' : data5.color2) }" >{{ data5.name }}</p>
+        <div class="tab" [class.open]="isTabOpen5">
+          <p class="description">{{ data5.description }}</p>
+        </div>
+      </div>
+
+      <div class="container" (click)="toggleTab6()" >
+        <img [src]="data6.src">
+        <p class="name" [ngStyle]="{ 'color': (data6.color ? 'white' : data6.color2) }" >{{ data6.name }}</p>
+        <div class="tab" [class.open]="isTabOpen6">
+          <p class="description">{{ data6.description }}</p>
+        </div>
+      </div>
+  </div>
+
+  <div class="containerTecnologias" >
+
+      <div class="container" (click)="toggleTab7()" *ngIf="rabbit">
+        <img [src]="data7.src">
+        <p class="name" [ngStyle]="{ 'color': (data7.color ? 'white' : data7.color2) }" >{{ data7.name }}</p>
+        <div class="tab" [class.open]="isTabOpen7">
+          <p class="description">{{ data7.description }}</p>
+        </div>
+
+    </div>
+
+      <div class="container" (click)="toggleTab8()" >
+        <img [src]="data8.src">
+        <p class="name" [ngStyle]="{ 'color': (data8.color ? 'white' : data8.color2) }" >{{ data8.name }}</p>
+        <div class="tab" [class.open]="isTabOpen8">
+          <p class="description">{{ data8.description }}</p>
+        </div>
+      </div>
+
+  </div>
+ </div>
+

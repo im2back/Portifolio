@@ -4,7 +4,7 @@ import { BadgeModule } from 'primeng/badge';
 @Component({
   selector: 'app-descricao',
   standalone: true,
-  imports: [BadgeModule],
+  imports: [BadgeModule,],
   templateUrl: './descricao.component.html',
   styleUrl: './descricao.component.css'
 })

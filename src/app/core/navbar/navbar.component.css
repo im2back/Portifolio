@@ -14,7 +14,7 @@ a {
 
 
 a:hover {
-  transition: 2s;
+  transition: 1s;
 
   padding-left: 50px;
   padding-right: 50px;
@@ -34,4 +34,6 @@ a::before {
   background-color: rgba(0, 0, 0, 0.415);
   padding: 20px;
   border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
